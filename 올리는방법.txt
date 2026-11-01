@@ -1,0 +1,13 @@
+우리는 지구 수비대 : 지구 구하기 월드  (만든사람 이경미 선생님)
+
+■ 깃허브에 올리는 방법 (GitHub Pages)
+1. github.com 에서 New repository → 이름 예: earth-defenders → Public → Create
+2. "uploading an existing file" 을 눌러 이 폴더 안의 index.html 과 assets 폴더, source 폴더를 끌어다 놓고 Commit
+3. Settings → Pages → Branch: main / (root) → Save
+4. 1~2분 뒤 https://(내아이디).github.io/earth-defenders/ 로 학생들이 접속해요.
+
+■ 폴더 설명
+- index.html : 완성된 게임 (그림·음악이 모두 들어 있어서 이 파일 하나로 실행돼요)
+- assets/ : 그림 3장(start, map, celebrate)과 배경음악(bgm.mp3) 원본
+- source/ : 게임을 고칠 때 쓰는 원본 코드 (python3 build.py 로 index.html 을 다시 만들어요)
+- 앱만들기_프롬프트.txt : AI에게 같은 게임을 만들게 하는 프롬프트
